@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | DARSHAN BADIGER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top">DARSHAN BADIGER</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-inner container">
+        <div class="hero-text">
+          <h1>Hi, I’m <span class="highlight">DARSHAN</span></h1>
+          <p class="lead">
+            I build responsive web experiences and modern interfaces with clean code and thoughtful design.
+            I am currently focused on full-stack development, performance optimization, and creating delightful user experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">See My Work</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="blob"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-header">
+          <h2>About Me</h2>
+          <p>Professional introduction</p>
+        </header>
+        <div class="grid about-grid">
+          <div class="about-text">
+            <p>
+              I am an MCA (Master of Computer Applications) student with a strong passion for cloud computing, DevOps engineering, and full-stack development.
+              I have a solid foundation in programming, databases, and computer networks, and I continuously strive to enhance my skills in areas like containerization,
+              CI/CD pipelines, and cloud platforms.
+            </p>
+            <p>
+              I enjoy solving real-world problems through code and am eager to apply my knowledge in a dynamic and challenging environment.
+              I'm currently seeking opportunities to learn, grow, and contribute to innovative tech projects that leverage modern DevOps practices and cloud technologies.
+            </p>
+            <div class="resume-row" id="resume">
+              <a class="btn secondary" href="#projects">View Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <header class="section-header">
+          <h2>Education</h2>
+          <p>Where I learned the foundations and built strong fundamentals</p>
+        </header>
+        <div class="timeline">
+          <div class="timeline-item">
+          <div class="timeline-content">
+              <h3>Master of Computer Applications</h3>
+              <p><strong>Institution:</strong> Sapthagiri NPS University, Bengaluru</p>
+              <p><strong>Duration:</strong> November 2025 – November 2027</p>
+              <p><strong>Specialization:</strong> Cloud Computing &amp; Data Science</p>
+              <p><strong>Focus Areas:</strong> DevOps, Cloud Architecture, CI/CD pipelines</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+           <div class="timeline-content">
+              <h3>Bachelor of Computer Applications</h3>
+              <p><strong>Institution:</strong> Chetana BCA &amp; BBA College, Vijaypur</p>
+              <p><strong>Duration:</strong> 2022 – 2025</p>
+              <p><strong>Specialization:</strong> Cloud Computing, Full Stack Web Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-header">
+          <h2>Technical Skills</h2>
+          <p>Tools and technologies I work with regularly</p>
+        </header>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <div class="skill-buttons">
+              <button class="skill-btn">Java</button>
+              <button class="skill-btn">Python</button>
+              <button class="skill-btn">JavaScript</button>
+              <button class="skill-btn">C</button>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Web & Database</h3>
+            <div class="skill-buttons">
+              <button class="skill-btn">HTML/CSS</button>
+              <button class="skill-btn">React</button>
+              <button class="skill-btn">MySQL</button>
+              <button class="skill-btn">MongoDB</button>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>DevOps & Cloud</h3>
+            <div class="skill-buttons">
+              <button class="skill-btn">Docker</button>
+              <button class="skill-btn">DevOps</button>
+              <button class="skill-btn">Kubernetes</button>
+              <button class="skill-btn">AWS</button>
+              <button class="skill-btn">CI/CD</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-header">
+          <h2>Experience</h2>
+          <p>Where I applied my skills in real-world settings</p>
+        </header>
+        <div class="timeline">
+          <div class="timeline-item">
+          <div class="timeline-content">
+              <h3>Internship - Web Development</h3>
+              <p><strong>Company:</strong> INNOOVATUM</p>
+              <p><strong>Duration:</strong> February 2024 – March 2024</p>
+              <p><strong>Role:</strong>Python Fullstack Development </p>
+              <ul>
+                <li>Developed responsive web applications using Python and Django </li>
+                <li>Collaborated with the design team to implement user-friendly interfaces.</li>
+                </div>
+          </div>
+        </div>
+      </div>
+      <section class="section" id="CERTIFICATIONS">
+        <div class="container">
+          <header class="section-header">
+            <h2>Certifications</h2>
+            <p>Recognitions that validate my expertise and commitment to learning</p>
+            <P> <strong>Company:</strong>Cisco Networking Academy</P>
+            <p><strong>Course:</strong>CyberOps Associate</p>
+            <p><strong>Course:</strong> Apply AI:Analyze Customers Reviews
+            </p>
+          </header>
+        </div>
+      </section>
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <header class="section-header">
+          <h2>Projects</h2>
+          <p>Selected work demonstrating real-world impact</p>
+        </header>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-badge">Web App</div>
+            <h3>Ayurcare</h3>
+            <p>
+              This project leverages Artificial Intelligence (AI) and Machine 
+Learning (ML) to detect Ayurvedic diseases based on symptoms, patient 
+history, and lifestyle. By analyzing input symptoms, the system predicts 
+possible diseases and recommends Ayurvedic treatments or lifestyle 
+modifications.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>Flask/Django </span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn small secondary" href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-badge">Software Aplication</div>
+            <h3>Hospital Management System</h3>
+            <p>
+              A Hospital Management System (HMS) is a software application designed to manage the 
+daily operations and administrative activities of a hospital or healthcare center. It helps in 
+maintaining patient records, managing appointments, tracking bed availability, handling 
+treatments, and controlling pharmacy operations in a systematic and efficient way. 
+            </p>
+            <div class="project-tags">
+              <span>Express</span>
+              <span>TypeScript</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="project-actions">
+              <a class="btn small secondary" href="#" target="_blank" rel="noopener">Source</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <h2>Get in Touch</h2>
+          <p>Contact me using below platforms</p>
+        </header>
+        <p class="contact-email">Reach me at <a href="mailto:darshanbadiger872@gmail.com">darshanbadiger872@gmail.com</a></p>
+        <div class="social-boxes">
+          <a class="social-box" href="https://www.linkedin.com/in/Darshan Badiger" target="_blank" rel="noopener" aria-label="LinkedIn">
+            LinkedIn
+          </a>
+          <a class="social-box" href="https://github.com/darshann188" target="_blank" rel="noopener" aria-label="GitHub">
+            GitHub
+          </a>
+          <a class="social-box" href="https://www.instagram.com/darshhh._.18" target="_blank" rel="noopener" aria-label="Instagram">
+            Instagram
+          </a>
+        </div>
+        <div class="contact-actions">
+          <a class="btn" href="mailto:darshanbadiger872@gmail.com">Say Hello</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Darshan's Portfolio.All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    const navToggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+
+    navToggle?.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      nav?.classList.toggle('nav-open');
+    });
+
+    document.querySelectorAll('.nav a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId.startsWith('#')) {
+          e.preventDefault();
+          const target = document.querySelector(targetId);
+          target?.scrollIntoView({ behavior: 'smooth' });
+          nav?.classList.remove('nav-open');
+          navToggle?.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Check for saved theme preference or default to dark mode
+    const currentTheme = localStorage.getItem('theme') || 'dark';
+    if (currentTheme === 'light') {
+      body.classList.add('light-mode');
+      themeToggle?.setAttribute('aria-label', 'Switch to dark mode');
+    } else {
+      themeToggle?.setAttribute('aria-label', 'Switch to light mode');
+    }
+
+    themeToggle?.addEventListener('click', () => {
+      const isLight = body.classList.toggle('light-mode');
+      const theme = isLight ? 'light' : 'dark';
+      localStorage.setItem('theme', theme);
+      themeToggle?.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+    });
+  </script>
+</body>
+</html>
